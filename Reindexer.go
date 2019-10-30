@@ -1,7 +1,7 @@
 package main
 
 import (
-	"MimojaFirmwareToolkit/pkg/Common"
+	"github.com/Mimoja/MFT-Common"
 	"context"
 	"encoding/json"
 	"github.com/olivere/elastic"
