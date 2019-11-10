@@ -6,4 +6,4 @@ ADD . /app/
 WORKDIR /app
 RUN go build -o main .
 
-CMD ["/app/main", "$MFT_CONFIG"]
+CMD ["/app/main", "config/config.yml"]
